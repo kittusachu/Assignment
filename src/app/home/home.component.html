@@ -1,0 +1,90 @@
+<div class="row">
+  <div class="column">
+    <div class="table">
+      <table class="dataTable">
+        <tr>
+          <th>Delete</th>
+          <th>Products</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td colspan="5">
+            <div *ngIf="!IsProductAdded" class="message">
+              <h4>THERE ARE NO PRODUCTS</h4>
+            </div>
+            <div class="productDiv" *ngIf="IsProductAdded">
+        <tr *ngFor="let product of SelectedProducts">
+          <td>
+            <a (click)="RemoveProduct(product)">
+              <img src="https://img.icons8.com/color/100/cancel--v1.png" alt="Cancel" height="20px" width="20px" />
+            </a>
+          </td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.price }}</td>
+          <td>
+            <div class="quantityProduct">
+              <button type="submit" class="btn" (click)="SubstractProductQuantity(product)">
+                -
+              </button>
+              <span>{{ product.quantity }}</span>
+              <button type="submit" class="btn" (click)="AddProduct(product)">
+                +
+              </button>
+            </div>
+          </td>
+          <td>{{ product.total }}</td>
+        </tr>
+    </div>
+    </td>
+    </tr>
+    </table>
+  </div>
+
+  <div class="tableDiv">
+    <table class="table1">
+      <tr>
+        <td class="tdGrey">Sub Total</td>
+        <td class="tdWhite">{{ SubTotal }} EUR</td>
+        <td class="tdWhite">{{ ItemTotal }} item</td>
+      </tr>
+
+      <tr>
+        <td class="tdGrey">Vat tax</td>
+        <td class="tdWhite">
+          <input class="inputVat" name="inputVat" type="text" (keyup)="CalculateVatTax()" [(ngModel)]="VatTax" />
+          %
+        </td>
+        <td class="tdWhite">{{ VatAmount }} EUR</td>
+      </tr>
+
+      <tr>
+        <td class="tdGrey">Discount</td>
+        <td class="tdWhite">
+          <input class="inputDiscount" name="inputDiscount" type="inputDiscount" (keyup)="CalculateDiscount()"
+            [(ngModel)]="Discount" />
+          %
+        </td>
+        <td class="tdWhite"> - {{ DiscountAmount }} EUR</td>
+      </tr>
+
+      <tr>
+        <td class="tdGrey">Total</td>
+        <td class="tdWhite">{{ FinalTotal }} EUR</td>
+        <td class="tdWhite"></td>
+      </tr>
+    </table>
+    <div class="btnDiv">
+      <button class="btnCancel" (click)="ClearAll()">CANCEL SALE</button>
+      <button class="btnProcess">PROCESS SALE</button>
+    </div>
+  </div>
+</div>
+<div class="column">
+  <h2>Products</h2>
+  <div class="container" *ngFor="let product of Products">
+    <app-product [ProductIn]="product"></app-product>
+  </div>
+</div>
+</div>

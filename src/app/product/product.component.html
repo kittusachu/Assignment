@@ -1,0 +1,14 @@
+<div>
+  <button
+    class="btnProduct"
+    [style.background-image]="'url(' + ProductIn.image + ')'"
+    [style.width.px]="80"
+    [style.height.px]="80"
+    [title]="
+      ' Price:' + ProductIn.price + ' Description:' + ProductIn.description
+    "
+    (click)="AddProduct(ProductIn)"
+  >
+    {{ ProductIn.name }}
+  </button>
+</div>

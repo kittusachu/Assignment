@@ -1,0 +1,158 @@
+{
+  "product": [
+    {
+      "name": "computer",
+      "price": 130,
+      "category": "computers",
+      "description": "",
+      "image": "https://img.icons8.com/fluency/80/monitor--v1.png"
+    },
+    {
+      "name": "sweater",
+      "price": 599,
+      "category": "Clothing",
+      "description": "fashion, clothes , sweater, wool, cardigan",
+      "image": "https://img.icons8.com/fluency/80/jumper.png"
+    },
+    {
+      "name": "tie",
+      "price": 99,
+      "category": "Clothing",
+      "description": "fashion, tie, clothes, accessory , accessoire",
+      "image": "https://img.icons8.com/fluency/80/tie.png"
+    },
+    {
+      "name": "jacket",
+      "price": 999,
+      "category": "Clothing",
+      "description": "winter jacket ",
+      "image": "https://img.icons8.com/officel/80/vest.png"
+    },
+    {
+      "name": "jacket men",
+      "price": 999,
+      "category": "Clothing",
+      "description": "winter jacket ",
+      "image": "https://'image'scdn.thecollective.in/img/app/product/9/907077-11184983.jpg?w=100"
+    },
+    {
+      "name": "grapes",
+      "price": 100,
+      "category": "fruit",
+      "description": "  ",
+      "image": "https://img.icons8.com/fluency/80/grapes.png"
+    },
+    {
+      "name": "strawberries",
+      "price": 220,
+      "category": "fruit",
+      "description": "",
+      "image": "https://img.icons8.com/fluency/80/strawberry.png"
+    },
+    {
+      "name": "apple",
+      "price": 180,
+      "category": "fruit",
+      "description": "",
+      "image": "https://img.icons8.com/fluency/80/apple.png"
+    },
+    {
+      "name": "Kiwi",
+      "price": 190,
+      "category": "fruit",
+      "description": "",
+      "image": "https://img.icons8.com/doodle/80/kiwi--v1.png"
+    },
+    {
+      "name": "orange",
+      "price": 150,
+      "category": "fruit",
+      "description": "",
+      "image": "https://img.icons8.com/fluency/80/orange.png"
+    },
+    {
+      "name": "mouse",
+      "price": 400,
+      "category": "computers",
+      "description": "Computer mouse",
+      "image": "https://img.icons8.com/fluency/80/mouse.png"
+    },
+    {
+      "name": "keyboard",
+      "price": 500,
+      "category": "computers",
+      "description": "Wired Keyboards",
+      "image": "https://img.icons8.com/fluency/80/keyboard.png"
+    },
+    {
+      "name": "Headphone",
+      "price": 800,
+      "category": "computers",
+      "description": "",
+      "image": "https://img.icons8.com/external-justicon-flat-justicon/64/external-headphone-rock-and-roll-justicon-flat-justicon.png"
+    },
+    {
+      "name": "motherboard",
+      "price": 10000,
+      "category": "computers",
+      "description": "",
+      "image": "https://img.icons8.com/fluency/80/motherboard.png"
+    },
+    {
+      "name": "caviar",
+      "price": 190,
+      "category": "caviar",
+      "description": "caviar",
+      "image": "https://img.icons8.com/fluency/80/caviar.png"
+    },
+    {
+      "name": "notebook",
+      "price": 190,
+      "category": "notebook",
+      "description": "",
+      "image": "https://img.icons8.com/fluency/80/book.png"
+    },
+    {
+      "name": "Shirts",
+      "price": 699,
+      "category": "cloth",
+      "description": "Cotton shorts for mens",
+      "image": "https://img.icons8.com/color/80/shirt.png"
+    },
+    {
+      "name": "Jeans",
+      "price": 1299,
+      "category": "cloth",
+      "description": "Men and women",
+      "image": "https://img.icons8.com/plasticine/80/jeans.png"
+    },
+    {
+      "name": "gift folding",
+      "price": 1599,
+      "category": "gift",
+      "description": "Surprice gift",
+      "image": "https://img.icons8.com/fluency/80/gift.png"
+    },
+    {
+      "name": "nivea pocket",
+      "price": 899,
+      "category": "nivea",
+      "description": "For men and women",
+      "image": "https://img.icons8.com/fluency/80/packet.png"
+    },
+    {
+      "name": "nevea pocket bleu",
+      "price": 999,
+      "category": "nivea",
+      "description": "Good quality",
+      "image": "headphone.jpeg"
+    },
+    {
+      "name": "chilli hot pizza",
+      "price": 399,
+      "category": "Food",
+      "description": "Hot and spicy",
+      "image": "https://img.icons8.com/doodle/80/pizza--v1.png"
+    }
+  ]
+}
